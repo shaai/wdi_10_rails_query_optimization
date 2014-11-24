@@ -22,8 +22,6 @@ gem 'devise'
 gem 'validate_url'
 
 group :development, :test do
-  gem 'factory_girl_rails'
-  gem 'faker'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'rspec-rails'
@@ -43,3 +41,5 @@ end
 ## Additional gems for query optimization demo
 
 gem 'bullet', group: :development
+gem 'factory_girl_rails'
+gem 'faker'
