@@ -43,3 +43,4 @@ end
 gem 'bullet', group: :development
 gem 'factory_girl_rails'
 gem 'faker'
+gem 'newrelic_rpm'
