@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: wdi_10_rails_database_performance_production
-  username: wdi_10_rails_database_performance
-  password: <%= ENV['WDI_10_RAILS_DATABASE_PERFORMANCE_DATABASE_PASSWORD'] %>
+
